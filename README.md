@@ -1,2 +1,7 @@
 # twigcs-docker
-twigcs docker file
+twigcs Dockerfile
+
+# How to use
+```bash
+docker run -v $(pwd):/src -t frvge/twigcs:latest /src/path_that_you_want_to_check
+``` 
